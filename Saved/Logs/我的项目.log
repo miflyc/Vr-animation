@@ -1,0 +1,902 @@
+﻿Log file open, 10/27/17 14:37:29
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: 我的项目
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1413008926) SRandInit(1413008926).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.193526
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.27-06.37.30:045][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.27-06.37.30:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.27-06.37.30:061][  0]LogInit: Computer: PC-20150726KRAS
+[2017.10.27-06.37.30:061][  0]LogInit: User: miflyc
+[2017.10.27-06.37.30:061][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.27-06.37.30:061][  0]LogInit: High frequency timer resolution =2.435771 MHz
+[2017.10.27-06.37.30:062][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.27-06.37.30:062][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.27-06.37.30:062][  0]LogMemory: Process Physical Memory: 278.43 MB used, 278.43 MB peak
+[2017.10.27-06.37.30:062][  0]LogMemory: Process Virtual Memory: 274.16 MB used, 274.16 MB peak
+[2017.10.27-06.37.30:062][  0]LogMemory: Physical Memory: 5571.14 MB used,  10728.95 MB free, 16300.08 MB total
+[2017.10.27-06.37.30:062][  0]LogMemory: Virtual Memory: 673.35 MB used,  10728.95 MB free, 134217728.00 MB total
+[2017.10.27-06.37.30:271][  0]LogInit: Using OS detected language (zh-CN).
+[2017.10.27-06.37.30:271][  0]LogInit: Using OS detected locale (zh-CN).
+[2017.10.27-06.37.30:717][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.27-06.37.30:763][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.10.27-06.37.30:763][  0]LogD3D11RHI:       6106/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.27-06.37.30:768][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.27-06.37.30:768][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.27-06.37.30:770][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.27-06.37.30:770][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.27-06.37.30:770][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.27-06.37.30:778][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.27-06.37.30:778][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.27-06.37.30:778][  0]LogWindows: EnumDisplayDevices:
+[2017.10.27-06.37.30:779][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.27-06.37.30:779][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.10.27-06.37.30:779][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.27-06.37.30:779][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.27-06.37.30:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.10.27-06.37.30:780][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.27-06.37.30:780][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.27-06.37.30:780][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.27-06.37.30:809][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.27-06.37.30:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.27-06.37.30:822][  0]LogShaderCompilers: Guid format shader working directory is 41 characters bigger than the processId version (E:/VR动画/我的项目/Intermediate/Shaders/WorkingDirectory/18376/).
+[2017.10.27-06.37.30:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/A26026B04596C5B99DF98DABCEECEFD9/'.
+[2017.10.27-06.37.30:822][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.27-06.37.31:917][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.27-06.37.31:983][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.27-06.37.32:048][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.27-06.37.32:115][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.27-06.37.32:183][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.27-06.37.32:249][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.27-06.37.32:315][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.27-06.37.32:381][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.27-06.37.32:448][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.27-06.37.32:523][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.27-06.37.32:594][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.27-06.37.32:669][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.27-06.37.32:741][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.27-06.37.32:805][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.27-06.37.32:869][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.27-06.37.33:000][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.27-06.37.33:001][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.27-06.37.33:059][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.27-06.37.33:181][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.27-06.37.33:219][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.27-06.37.33:281][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.27-06.37.33:345][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.27-06.37.33:409][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.27-06.37.33:474][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.27-06.37.33:474][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.27-06.37.34:143][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/VR动画/我的项目/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/VR动画/我的项目/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.27-06.37.34:250][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.27-06.37.34:269][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.27-06.37.34:282][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.27-06.37.34:296][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.27-06.37.34:296][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.27-06.37.34:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.27-06.37.34:297][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.27-06.37.34:591][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.10.27-06.37.34:721][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.27-06.37.35:241][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.27-06.37.35:299][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.27-06.37.35:300][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.27-06.37.35:300][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.27-06.37.35:300][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.27-06.37.35:300][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.27-06.37.35:313][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.27-06.37.35:805][  0]LogNetVersion: 我的项目 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1800545628)
+[2017.10.27-06.37.36:093][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 4 prioritized culture(s) in 0.078838 seconds
+[2017.10.27-06.37.36:099][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.27-06.37.36:100][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.27-06.37.36:100][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.27-06.37.36:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.27-06.37.39:716][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.27-06.37.39:773][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.27-06.37.40:646][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.27-06.37.41:190][  0]SourceControl: 源码控制已禁用
+[2017.10.27-06.37.41:190][  0]SourceControl: 源码控制已禁用
+[2017.10.27-06.37.41:256][  0]SourceControl: 源码控制已禁用
+[2017.10.27-06.37.41:321][  0]SourceControl: 源码控制已禁用
+[2017.10.27-06.37.42:156][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.27-06.37.42:493][  0]LogOcInput: OculusInput pre-init called
+[2017.10.27-06.37.42:832][  0]LogEngine: Initializing Engine...
+[2017.10.27-06.37.42:836][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.10.27-06.37.43:122][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.27-06.37.43:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.27-06.37.43:439][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.27-06.37.43:480][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 4 channels at 44.1 kHz using 32 bits per sample (channel mask 0x33)
+[2017.10.27-06.37.43:531][  0]LogInit: FAudioDevice initialized.
+[2017.10.27-06.37.43:630][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.27-06.37.43:645][  0]LogInit: Texture streaming: Enabled
+[2017.10.27-06.37.43:820][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.27-06.37.44:143][  0]LogInit: Transaction tracking system initialized
+[2017.10.27-06.37.44:582][  0]BlueprintLog: New page: 编辑器加载
+[2017.10.27-06.37.45:792][  0]LocalizationService: 本地化服务已被禁用
+[2017.10.27-06.37.46:703][  0]LogConsoleResponse: Display: 
+[2017.10.27-06.37.46:941][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.27-06.37.46:941][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.27-06.37.46:941][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.27-06.37.47:917][  0]LogFileCache: Scanning file cache for directory 'E:/VR动画/我的项目/Content/' took 0.01s
+[2017.10.27-06.37.48:451][  0]SourceControl: 源码控制已禁用
+[2017.10.27-06.37.48:458][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2017.10.27-06.37.48:474][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.10.27-06.37.48:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.10.27-06.37.48:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.10.27-06.37.48:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.10.27-06.37.48:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.10.27-06.37.48:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.10.27-06.37.48:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.10.27-06.37.48:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.10.27-06.37.48:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.10.27-06.37.48:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.10.27-06.37.48:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.10.27-06.37.48:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.10.27-06.37.48:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.10.27-06.37.48:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.10.27-06.37.48:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.10.27-06.37.48:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.10.27-06.37.48:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.10.27-06.37.48:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.10.27-06.37.48:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Fire01.uasset"
+[2017.10.27-06.37.48:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.10.27-06.37.48:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.10.27-06.37.48:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.10.27-06.37.48:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Light01.uasset"
+[2017.10.27-06.37.48:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.10.27-06.37.48:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Light02.uasset"
+[2017.10.27-06.37.48:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.10.27-06.37.48:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.10.27-06.37.48:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.10.27-06.37.48:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.10.27-06.37.48:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.10.27-06.37.48:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.10.27-06.37.48:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.10.27-06.37.48:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.10.27-06.37.48:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.10.27-06.37.48:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Steam01.uasset"
+[2017.10.27-06.37.48:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.10.27-06.37.48:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.10.27-06.37.48:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.10.27-06.37.48:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.10.27-06.37.48:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.10.27-06.37.48:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.10.27-06.37.48:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.10.27-06.37.48:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.10.27-06.37.48:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.10.27-06.37.48:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.10.27-06.37.48:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.10.27-06.37.48:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.10.27-06.37.48:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.10.27-06.37.48:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.10.27-06.37.48:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.10.27-06.37.48:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.10.27-06.37.48:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.10.27-06.37.48:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "E:/VR动画/我的项目/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.10.27-06.37.48:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "E:/VR动画/我的项目/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.10.27-06.37.48:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.10.27-06.37.48:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "E:/VR动画/我的项目/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.10.27-06.37.48:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.10.27-06.37.48:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "E:/VR动画/我的项目/Content/StarterContent/Maps/StarterMap.umap"
+[2017.10.27-06.37.48:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.10.27-06.37.48:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.10.27-06.37.48:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.10.27-06.37.48:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.10.27-06.37.48:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.10.27-06.37.48:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.10.27-06.37.48:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.10.27-06.37.48:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.10.27-06.37.48:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.10.27-06.37.48:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.10.27-06.37.48:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.10.27-06.37.48:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.10.27-06.37.48:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.10.27-06.37.48:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.10.27-06.37.48:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.10.27-06.37.48:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.10.27-06.37.48:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.10.27-06.37.48:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.10.27-06.37.48:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.10.27-06.37.48:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.10.27-06.37.48:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.10.27-06.37.48:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.10.27-06.37.48:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.10.27-06.37.48:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.10.27-06.37.48:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.10.27-06.37.48:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.10.27-06.37.48:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.10.27-06.37.48:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.10.27-06.37.48:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.10.27-06.37.48:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.10.27-06.37.48:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.10.27-06.37.48:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.10.27-06.37.48:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.10.27-06.37.48:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.10.27-06.37.48:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.10.27-06.37.48:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.10.27-06.37.48:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.10.27-06.37.48:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.10.27-06.37.49:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.10.27-06.37.49:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.10.27-06.37.49:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.10.27-06.37.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.10.27-06.37.49:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.10.27-06.37.49:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.10.27-06.37.49:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.10.27-06.37.49:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.10.27-06.37.49:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.10.27-06.37.49:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.10.27-06.37.49:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.10.27-06.37.49:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.10.27-06.37.49:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.10.27-06.37.49:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.10.27-06.37.49:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.10.27-06.37.49:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.10.27-06.37.49:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.10.27-06.37.49:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.10.27-06.37.49:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.10.27-06.37.49:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.10.27-06.37.49:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.10.27-06.37.49:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.10.27-06.37.49:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.10.27-06.37.49:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.10.27-06.37.49:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.10.27-06.37.49:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.10.27-06.37.49:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.10.27-06.37.49:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Door.uasset"
+[2017.10.27-06.37.49:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.10.27-06.37.49:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.10.27-06.37.49:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.10.27-06.37.49:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.10.27-06.37.49:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.10.27-06.37.49:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.10.27-06.37.49:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.10.27-06.37.49:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.10.27-06.37.49:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.10.27-06.37.49:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.10.27-06.37.49:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.10.27-06.37.49:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.10.27-06.37.49:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.10.27-06.37.49:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.10.27-06.37.49:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.10.27-06.37.49:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.10.27-06.37.49:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.10.27-06.37.49:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.10.27-06.37.49:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.10.27-06.37.49:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.10.27-06.37.49:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.10.27-06.37.49:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.10.27-06.37.49:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.10.27-06.37.49:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.10.27-06.37.49:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.10.27-06.37.49:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.10.27-06.37.49:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.10.27-06.37.49:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.10.27-06.37.49:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.10.27-06.37.49:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.10.27-06.37.49:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.10.27-06.37.49:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.10.27-06.37.49:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.10.27-06.37.49:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.10.27-06.37.49:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.10.27-06.37.49:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.10.27-06.37.49:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.10.27-06.37.49:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.10.27-06.37.49:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.10.27-06.37.49:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.10.27-06.37.49:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.10.27-06.37.49:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.10.27-06.37.49:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.10.27-06.37.49:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.10.27-06.37.49:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.10.27-06.37.49:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.10.27-06.37.49:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.10.27-06.37.49:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.10.27-06.37.49:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.10.27-06.37.49:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.10.27-06.37.49:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.10.27-06.37.49:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.10.27-06.37.49:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.10.27-06.37.49:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.10.27-06.37.49:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.10.27-06.37.49:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.10.27-06.37.49:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.10.27-06.37.49:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.10.27-06.37.49:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.10.27-06.37.49:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.10.27-06.37.49:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.10.27-06.37.49:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.10.27-06.37.49:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.10.27-06.37.49:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.10.27-06.37.49:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.10.27-06.37.49:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.10.27-06.37.49:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.10.27-06.37.49:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.10.27-06.37.49:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.10.27-06.37.49:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.10.27-06.37.49:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.10.27-06.37.49:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.10.27-06.37.49:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.10.27-06.37.49:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.10.27-06.37.49:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.10.27-06.37.49:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.10.27-06.37.49:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.10.27-06.37.49:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.10.27-06.37.49:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.10.27-06.37.49:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.10.27-06.37.49:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.10.27-06.37.49:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.10.27-06.37.49:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.10.27-06.37.49:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.10.27-06.37.49:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.10.27-06.37.49:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.10.27-06.37.49:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.10.27-06.37.49:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.10.27-06.37.49:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.10.27-06.37.49:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.10.27-06.37.49:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.10.27-06.37.49:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.10.27-06.37.49:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.10.27-06.37.49:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.10.27-06.37.50:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.10.27-06.37.50:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.10.27-06.37.50:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.10.27-06.37.50:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.10.27-06.37.50:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.10.27-06.37.50:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.10.27-06.37.50:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.10.27-06.37.50:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.10.27-06.37.50:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.10.27-06.37.50:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.10.27-06.37.50:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.10.27-06.37.50:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.10.27-06.37.50:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.10.27-06.37.50:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.10.27-06.37.50:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.10.27-06.37.50:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.10.27-06.37.50:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.10.27-06.37.50:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.10.27-06.37.50:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.10.27-06.37.50:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.10.27-06.37.50:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.10.27-06.37.50:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.10.27-06.37.50:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.10.27-06.37.50:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.10.27-06.37.50:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.10.27-06.37.50:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.10.27-06.37.50:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.10.27-06.37.50:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.10.27-06.37.50:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.10.27-06.37.50:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.10.27-06.37.50:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.10.27-06.37.50:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.10.27-06.37.50:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.10.27-06.37.50:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.10.27-06.37.50:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.10.27-06.37.50:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.10.27-06.37.50:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.10.27-06.37.50:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.10.27-06.37.50:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.10.27-06.37.50:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.10.27-06.37.50:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.10.27-06.37.50:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.10.27-06.37.50:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.10.27-06.37.50:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.10.27-06.37.51:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.10.27-06.37.51:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.10.27-06.37.51:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.10.27-06.37.51:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.10.27-06.37.51:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.10.27-06.37.51:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.10.27-06.37.51:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.10.27-06.37.51:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.10.27-06.37.51:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "E:/VR动画/我的项目/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.10.27-06.37.51:323][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 26 NumSamples 1 (Frame:1).
+[2017.10.27-06.37.51:475][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="E:/VR动画/我的项目/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.10.27-06.37.51:492][  0]LogSavePackage: Save=13.20ms
+[2017.10.27-06.37.51:492][  0]LogSavePackage: Moving 'E:/VR动画/我的项目/Saved/Floor_400x400DC97B8C74C5E6D7DAE88149A06645F55.tmp' to 'E:/VR动画/我的项目/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.10.27-06.37.51:494][  0]LogSavePackage: Display: Finished SavePackage E:/VR动画/我的项目/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.10.27-06.37.51:494][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.10.27-06.37.51:496][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.27-06.37.51:496][  0]LightingResults: New page: 光照构建
+[2017.10.27-06.37.51:551][  0]MapCheck: New page: 地图检测
+[2017.10.27-06.37.51:551][  0]LightingResults: New page: 光照构建
+[2017.10.27-06.37.51:742][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.27-06.37.51:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.27-06.37.51:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.27-06.37.51:831][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时68.186毫秒完成。
+[2017.10.27-06.37.51:831][  0]LogFileHelpers: Loading map 'Template_Default' took 0.335
+[2017.10.27-06.37.51:909][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.27-06.37.52:044][  0]LogCollectionManager: Loaded 0 collections in 0.001832 seconds
+[2017.10.27-06.37.52:296][  0]LogFileCache: Scanning file cache for directory 'E:/VR动画/我的项目/Saved/Collections/' took 0.01s
+[2017.10.27-06.37.52:296][  0]LogFileCache: Scanning file cache for directory 'E:/VR动画/我的项目/Content/Developers/miflyc/Collections/' took 0.01s
+[2017.10.27-06.37.52:296][  0]LogFileCache: Scanning file cache for directory 'E:/VR动画/我的项目/Content/Collections/' took 0.01s
+[2017.10.27-06.37.52:296][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.27-06.37.52:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2386 classes and 500 folders.
+[2017.10.27-06.37.52:397][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.27-06.37.52:455][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.27-06.37.52:528][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.27-06.37.52:684][  0]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.27-06.37.52:689][  0]LogSlate: Took 0.004476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.27-06.37.52:691][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.27-06.37.52:755][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.10.27-06.37.52:973][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.27-06.37.52:974][  0]LogLoad: (Engine Initialization) Total time: 25.05 seconds
+[2017.10.27-06.37.52:974][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.27-06.37.52:974][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.27-06.37.52:974][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.27-06.37.53:511][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.27-06.37.53:562][  1]LogAssetRegistry: Asset discovery search completed in 18.9939 seconds
+[2017.10.27-06.37.53:565][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.27-06.37.53:565][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.10.27-06.45.46:423][723]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.10.27-06.45.46:448][723]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.10.27-06.45.46:480][723]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.10.27-06.45.46:518][723]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.10.27-06.45.46:550][723]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.10.27-06.45.46:607][723]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.27-06.45.46:626][723]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.27-06.45.46:647][723]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.27-06.45.46:670][723]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.27-06.45.46:706][723]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.10.27-06.45.46:727][723]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.10.27-06.45.46:754][723]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.10.27-06.45.46:781][723]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.10.27-06.45.47:776][771]LogSlate: Took 0.001735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.27-06.45.48:636][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.27-06.45.51:224][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.10.27-06.46.02:778][649]LogEditor: Attempting to add actor of class 'VREditorBaseActor' to level at -130.00,570.00,100.00
+[2017.10.27-06.46.03:567][692]LogEditor: Attempting to add actor of class 'VREditorBaseActor' to level at -30.00,120.00,20.00
+[2017.10.27-06.46.08:163][963]LogEditorActor: Deleted Actor: VREditorBaseActor
+[2017.10.27-06.46.08:174][963]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.10.27-06.46.11:029][  3]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.27-06.46.11:102][  3]LogSlate: Took 0.000550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.27-06.46.17:545][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="E:/VR动画/我的项目/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.27-06.46.17:581][ 21]LogSavePackage: Save=23.73ms
+[2017.10.27-06.46.17:581][ 21]LogSavePackage: Moving 'E:/VR动画/我的项目/Saved/Untitled6F2E8A0C4BA04829120484B6FA8CA664.tmp' to 'E:/VR动画/我的项目/Content/Untitled.umap'
+[2017.10.27-06.46.17:585][ 21]LogSavePackage: Display: Finished SavePackage E:/VR动画/我的项目/Content/Untitled.umap
+[2017.10.27-06.46.17:622][ 21]LogFileHelpers: Saving map 'Untitled' took 0.614
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 1 (Closing connection 1)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 3 (  Trying 119.28.34.46...)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 4 (connect to 119.28.34.46 port 443 failed: Timed out)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 5 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.10.27-06.46.17:835][ 22]LogHttp: Warning: 000001F7EDFFB280: libcurl info message cache 6 (Closing connection 2)
+[2017.10.27-06.46.17:835][ 22]Cmd: QUIT_EDITOR
+[2017.10.27-06.46.17:848][ 22]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.27-06.46.17:859][ 22]LogExit: Preparing to exit.
+[2017.10.27-06.46.19:127][ 22]LogExit: Editor shut down
+[2017.10.27-06.46.19:134][ 22]LogExit: Transaction tracking system shut down
+[2017.10.27-06.46.19:207][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.27-06.46.19:207][ 22]LogDirectoryWatcher: A directory notification for 'E:/VR动画/我的项目/Content/' was aborted.
+[2017.10.27-06.46.19:207][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.27-06.46.19:207][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.27-06.46.19:207][ 22]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.27-06.46.19:270][ 22]LogExit: Object subsystem successfully closed.
+[2017.10.27-06.46.19:291][ 22]LogD3D11RHI: Shutdown
+[2017.10.27-06.46.19:291][ 22]LogD3D11RHI: CleanupD3DDevice
+[2017.10.27-06.46.19:407][ 22]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.27-06.46.19:435][ 22]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.27-06.46.19:435][ 22]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.27-06.46.19:435][ 22]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.27-06.46.19:435][ 22]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.27-06.46.19:436][ 22]LogDirectoryWatcher: A directory notification for 'E:/VR动画/我的项目/Content/Collections/' was aborted.
+[2017.10.27-06.46.19:436][ 22]LogDirectoryWatcher: A directory notification for 'E:/VR动画/我的项目/Content/Developers/miflyc/Collections/' was aborted.
+[2017.10.27-06.46.19:436][ 22]LogDirectoryWatcher: A directory notification for 'E:/VR动画/我的项目/Saved/Collections/' was aborted.
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.27-06.46.19:436][ 22]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.27-06.46.19:437][ 22]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.27-06.46.19:500][ 22]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.27-06.46.19:501][ 22]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.27-06.46.19:502][ 22]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.27-06.46.19:555][ 22]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.27-06.46.19:556][ 22]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.27-06.46.19:576][ 22]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.27-06.46.19:577][ 22]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.27-06.46.19:579][ 22]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.27-06.46.19:579][ 22]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.27-06.46.19:579][ 22]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.27-06.46.19:580][ 22]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.27-06.46.19:681][ 22]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.27-06.46.19:932][ 22]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.27-06.46.19:933][ 22]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.27-06.46.19:933][ 22]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.27-06.46.19:933][ 22]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.27-06.46.19:933][ 22]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.27-06.46.19:933][ 22]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.27-06.46.19:934][ 22]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.27-06.46.19:937][ 22]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.27-06.46.19:938][ 22]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.27-06.46.19:987][ 22]LogDerivedDataCache: Shutdown
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.27-06.46.19:987][ 22]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.27-06.46.19:988][ 22]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.27-06.46.19:988][ 22]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.27-06.46.19:988][ 22]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.27-06.46.19:988][ 22]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E905A45-485B-43C1-F910-918E4F22550E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=1087346c4006d13358bdd89f44fe27ea%7Ced83049a0ef5465abd4202b9c1d34bee%7C4894d51c-963d-4b82-a831-ec02ddef743a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.27-06.46.19:988][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.20:489][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.20:990][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.21:490][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.21:991][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.22:491][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.22:992][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.23:492][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.23:993][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.24:493][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.24:993][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.25:494][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.25:994][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.26:495][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.26:995][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.27:496][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.27:996][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.28:496][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.28:997][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.29:498][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.29:999][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.30:499][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.31:000][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.31:500][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.32:001][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.32:502][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.33:002][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.33:502][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.34:003][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.34:503][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.35:004][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.35:504][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.36:004][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.36:506][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.37:006][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.37:507][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.38:007][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.38:508][ 22]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: libcurl info message cache 0 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: libcurl info message cache 1 (  Trying 119.28.34.46...)
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: libcurl info message cache 2 (connect to 119.28.34.46 port 443 failed: Timed out)
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.10.27-06.46.39:008][ 22]LogHttp: Warning: 000001F7EDC41780: libcurl info message cache 4 (Closing connection 3)
+[2017.10.27-06.46.39:020][ 22]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.27-06.46.39:022][ 22]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.27-06.46.39:023][ 22]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.27-06.46.39:026][ 22]LogExit: Exiting.
+[2017.10.27-06.46.39:032][ 22]Log file closed, 10/27/17 14:46:39
